@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="21" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-28T16:24:31 IST" name="Surefire suite" finished-at="2025-02-28T16:24:44 IST" duration-ms="12967">
+    <groups>
+      <group name="functional">
+        <method signature="PaymentTests.paymentinDollors()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" name="paymentinDollors" class="testng.grouping.PaymentTests"/>
+        <method signature="PaymentTests.paymentinRupees()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" name="paymentinRupees" class="testng.grouping.PaymentTests"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="PaymentTests.paymentinDollors()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" name="paymentinDollors" class="testng.grouping.PaymentTests"/>
+        <method signature="PaymentTests.paymentinRupees()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" name="paymentinRupees" class="testng.grouping.PaymentTests"/>
+        <method signature="SignUpTests.SignUpByEmail()[pri:1, instance:testng.grouping.SignUpTests@6340e5f0]" name="SignUpByEmail" class="testng.grouping.SignUpTests"/>
+        <method signature="SignUpTests.SignUpByFaceBook()[pri:2, instance:testng.grouping.SignUpTests@6340e5f0]" name="SignUpByFaceBook" class="testng.grouping.SignUpTests"/>
+        <method signature="SignUpTests.SignUpByTwitter()[pri:3, instance:testng.grouping.SignUpTests@6340e5f0]" name="SignUpByTwitter" class="testng.grouping.SignUpTests"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTests.LoginByEmail()[pri:1, instance:testng.grouping.LoginTests@41a0aa7d]" name="LoginByEmail" class="testng.grouping.LoginTests"/>
+        <method signature="PaymentTests.paymentinDollors()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" name="paymentinDollors" class="testng.grouping.PaymentTests"/>
+        <method signature="PaymentTests.paymentinRupees()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" name="paymentinRupees" class="testng.grouping.PaymentTests"/>
+        <method signature="LoginTests.LoginByFaceBook()[pri:2, instance:testng.grouping.LoginTests@41a0aa7d]" name="LoginByFaceBook" class="testng.grouping.LoginTests"/>
+        <method signature="LoginTests.LoginByTwitter()[pri:3, instance:testng.grouping.LoginTests@41a0aa7d]" name="LoginByTwitter" class="testng.grouping.LoginTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-02-28T16:24:31 IST" name="Surefire test" finished-at="2025-02-28T16:24:44 IST" duration-ms="12967">
+      <class name="testng.FactoryA">
+        <test-method signature="testMethod()[pri:0, instance:testng.FactoryA@543295b0, instance params:[]]" started-at="2025-02-28T16:24:31 IST" name="testMethod" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod()[pri:0, instance:testng.FactoryA@54422e18, instance params:[]]" started-at="2025-02-28T16:24:31 IST" name="testMethod" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod()[pri:0, instance:testng.FactoryA@563f38c4, instance params:[]]" started-at="2025-02-28T16:24:31 IST" name="testMethod" finished-at="2025-02-28T16:24:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- testng.FactoryA -->
+      <class name="testng.FirstTestCase">
+        <test-method signature="Openapp()[pri:1, instance:testng.FirstTestCase@e350b40]" started-at="2025-02-28T16:24:31 IST" name="Openapp" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openapp -->
+        <test-method signature="Login()[pri:2, instance:testng.FirstTestCase@e350b40]" started-at="2025-02-28T16:24:31 IST" name="Login" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:3, instance:testng.FirstTestCase@e350b40]" started-at="2025-02-28T16:24:31 IST" name="Logout" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testng.FirstTestCase -->
+      <class name="testng.ParallelTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testng.ParallelTest@793f29ff]" started-at="2025-02-28T16:24:44 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1740740084064" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:testng.ParallelTest@793f29ff]" started-at="2025-02-28T16:24:44 IST" name="testLogin" finished-at="2025-02-28T16:24:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDownn()[pri:0, instance:testng.ParallelTest@793f29ff]" started-at="2025-02-28T16:24:44 IST" name="tearDownn" finished-at="2025-02-28T16:24:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+      </class> <!-- testng.ParallelTest -->
+      <class name="testng.OrangeHRMTest">
+        <test-method signature="openapp()[pri:1, instance:testng.OrangeHRMTest@45099dd3]" started-at="2025-02-28T16:24:31 IST" name="openapp" finished-at="2025-02-28T16:24:38 IST" duration-ms="7478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="testLogo()[pri:2, instance:testng.OrangeHRMTest@45099dd3]" started-at="2025-02-28T16:24:38 IST" name="testLogo" finished-at="2025-02-28T16:24:41 IST" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="loginHRM()[pri:3, instance:testng.OrangeHRMTest@45099dd3]" started-at="2025-02-28T16:24:41 IST" name="loginHRM" finished-at="2025-02-28T16:24:43 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHRM -->
+        <test-method signature="CloseApp()[pri:4, instance:testng.OrangeHRMTest@45099dd3]" started-at="2025-02-28T16:24:43 IST" name="CloseApp" finished-at="2025-02-28T16:24:44 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testng.OrangeHRMTest -->
+      <class name="testng.grouping.PaymentTests">
+        <test-method signature="paymentinDollors()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" started-at="2025-02-28T16:24:31 IST" name="paymentinDollors" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinDollors -->
+        <test-method signature="paymentinRupees()[pri:1, instance:testng.grouping.PaymentTests@2794eab6]" started-at="2025-02-28T16:24:31 IST" name="paymentinRupees" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinRupees -->
+      </class> <!-- testng.grouping.PaymentTests -->
+      <class name="testng.grouping.SignUpTests">
+        <test-method signature="SignUpByEmail()[pri:1, instance:testng.grouping.SignUpTests@6340e5f0]" started-at="2025-02-28T16:24:31 IST" name="SignUpByEmail" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpByEmail -->
+        <test-method signature="SignUpByFaceBook()[pri:2, instance:testng.grouping.SignUpTests@6340e5f0]" started-at="2025-02-28T16:24:31 IST" name="SignUpByFaceBook" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpByFaceBook -->
+        <test-method signature="SignUpByTwitter()[pri:3, instance:testng.grouping.SignUpTests@6340e5f0]" started-at="2025-02-28T16:24:31 IST" name="SignUpByTwitter" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpByTwitter -->
+      </class> <!-- testng.grouping.SignUpTests -->
+      <class name="testng.grouping.LoginTests">
+        <test-method signature="LoginByEmail()[pri:1, instance:testng.grouping.LoginTests@41a0aa7d]" started-at="2025-02-28T16:24:31 IST" name="LoginByEmail" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByEmail -->
+        <test-method signature="LoginByFaceBook()[pri:2, instance:testng.grouping.LoginTests@41a0aa7d]" started-at="2025-02-28T16:24:31 IST" name="LoginByFaceBook" finished-at="2025-02-28T16:24:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByFaceBook -->
+        <test-method signature="LoginByTwitter()[pri:3, instance:testng.grouping.LoginTests@41a0aa7d]" started-at="2025-02-28T16:24:31 IST" name="LoginByTwitter" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByTwitter -->
+      </class> <!-- testng.grouping.LoginTests -->
+      <class name="testng.DataProviderTest">
+        <test-method signature="testMethod(java.lang.String,int)[pri:0, instance:testng.DataProviderTest@51c668e3]" started-at="2025-02-28T16:24:31 IST" name="testMethod" data-provider="TestData" finished-at="2025-02-28T16:24:31 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String,int)[pri:0, instance:testng.DataProviderTest@51c668e3]" started-at="2025-02-28T16:24:31 IST" name="testMethod" data-provider="TestData" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String,int)[pri:0, instance:testng.DataProviderTest@51c668e3]" started-at="2025-02-28T16:24:31 IST" name="testMethod" data-provider="TestData" finished-at="2025-02-28T16:24:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- testng.DataProviderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

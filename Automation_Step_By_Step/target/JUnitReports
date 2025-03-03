@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.188" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="ParaBank login functionality" name="Check login functionality with valid credentials" time="23.894">
+<system-out><![CDATA[
+Given Browser open..........................................................passed
+And user click on Register button...........................................passed
+When user filled Register details...........................................passed
+And user enter username and password........................................passed
+Then user getting Error!....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+<plugin-configs>
+	<plugin-config plugin-name="RestAssuredApi" plugin-bean="RestAssuredApi"
+		depend-plugins="" plugin-level="10"></plugin-config>
+</plugin-configs>

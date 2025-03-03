@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Automation_Step_By_Step</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>testdata/Excel.feature.xlsx</name>
+			<type>1</type>
+			<location>E:/Automation testing/Excel.feature.xlsx</location>
+		</link>
+		<link>
+			<name>src/test/resources/drivers/LICENSE.chromedriver</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/chromedriver-win64/chromedriver-win64/LICENSE.chromedriver</locationURI>
+		</link>
+		<link>
+			<name>src/test/resources/drivers/THIRD_PARTY_NOTICES.chromedriver</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/chromedriver-win64/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver</locationURI>
+		</link>
+		<link>
+			<name>src/test/resources/drivers/chromedriver.exe</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
