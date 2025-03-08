@@ -18,7 +18,7 @@ public class Annotations {
 		System.out.println("login into app...");
 	}
 	
-	@Test
+	@Test(priority=1)
 	void search() {
 		System.out.println("search ...");
 	}
@@ -27,7 +27,7 @@ public class Annotations {
     	System.out.println("logout app");
     }
     
-	@Test
+	@Test(priority=2)
     void advsearch() {
     	
     	System.out.println("adv search...");

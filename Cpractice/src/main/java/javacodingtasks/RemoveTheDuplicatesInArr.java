@@ -33,7 +33,7 @@ public class RemoveTheDuplicatesInArr {
 
         // Determine the new size of the array (maximum possible size is original array size)
         int n = arr.length;
-        System.out.println(n);
+        System.out.println("total length:"+ n);
         
       
 
@@ -50,13 +50,15 @@ public class RemoveTheDuplicatesInArr {
                     j--; // Decrement j to check the new element that shifted into its place
                 }
             }
+        //    System.out.println("Array after removing duplicates:");
+            System.out.println("After removing duplicates:" + arr[i]);
         }
 
         // Print the modified array
-        System.out.println("Array after removing duplicates:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-       }
+        
+      //  for (int i = 0; i < n; i++) {
+          
+     //  }
     }
 }
 

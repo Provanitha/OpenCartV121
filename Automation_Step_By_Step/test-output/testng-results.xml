@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="8" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-25T17:00:48 IST" name="groupingsuite" finished-at="2025-02-25T17:00:48 IST" duration-ms="55">
+  <suite started-at="2025-03-04T15:04:44 IST" name="Default suite" finished-at="2025-03-04T15:04:44 IST" duration-ms="52">
     <groups>
-      <group name="sanity">
-        <method signature="LoginTests.LoginByEmail()[pri:1, instance:testng.grouping.LoginTests@7bab3f1a]" name="LoginByEmail" class="testng.grouping.LoginTests"/>
-        <method signature="LoginTests.LoginByFaceBook()[pri:2, instance:testng.grouping.LoginTests@7bab3f1a]" name="LoginByFaceBook" class="testng.grouping.LoginTests"/>
-        <method signature="LoginTests.LoginByTwitter()[pri:3, instance:testng.grouping.LoginTests@7bab3f1a]" name="LoginByTwitter" class="testng.grouping.LoginTests"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-02-25T17:00:48 IST" name="groupingtests" finished-at="2025-02-25T17:00:48 IST" duration-ms="55">
-      <class name="testng.grouping.LoginTests">
-        <test-method signature="LoginByEmail()[pri:1, instance:testng.grouping.LoginTests@7bab3f1a]" started-at="2025-02-25T17:00:48 IST" name="LoginByEmail" finished-at="2025-02-25T17:00:48 IST" duration-ms="9" status="PASS">
+    <test started-at="2025-03-04T15:04:44 IST" name="Default test" finished-at="2025-03-04T15:04:44 IST" duration-ms="52">
+      <class name="testng.Annotations">
+        <test-method is-config="true" signature="login()[pri:0, instance:testng.Annotations@6fdbe764]" started-at="2025-03-04T15:04:44 IST" name="login" finished-at="2025-03-04T15:04:44 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginByEmail -->
-        <test-method signature="LoginByFaceBook()[pri:2, instance:testng.grouping.LoginTests@7bab3f1a]" started-at="2025-02-25T17:00:48 IST" name="LoginByFaceBook" finished-at="2025-02-25T17:00:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="search()[pri:1, instance:testng.Annotations@6fdbe764]" started-at="2025-03-04T15:04:44 IST" name="search" finished-at="2025-03-04T15:04:44 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginByFaceBook -->
-        <test-method signature="LoginByTwitter()[pri:3, instance:testng.grouping.LoginTests@7bab3f1a]" started-at="2025-02-25T17:00:48 IST" name="LoginByTwitter" finished-at="2025-02-25T17:00:48 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- search -->
+        <test-method signature="advsearch()[pri:2, instance:testng.Annotations@6fdbe764]" started-at="2025-03-04T15:04:44 IST" name="advsearch" finished-at="2025-03-04T15:04:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginByTwitter -->
-      </class> <!-- testng.grouping.LoginTests -->
-    </test> <!-- groupingtests -->
-  </suite> <!-- groupingsuite -->
+        </test-method> <!-- advsearch -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testng.Annotations@6fdbe764]" started-at="2025-03-04T15:04:44 IST" name="logout" finished-at="2025-03-04T15:04:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testng.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
